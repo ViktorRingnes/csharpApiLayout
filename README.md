@@ -7,7 +7,7 @@ Sett launch browser til på og sett App URL til http://localhost:5000
 
 ## Koble til MongoDB
 Gå till appsetting.json og edit apiUrl til database Uri'en din.
-Kjør ```bash dotnet add package MongoDB.Driver``` for å laste ned mongoDB sine drivers og bli kvitt feilmedlingene dine.
+Kjør ```dotnet add package MongoDB.Driver``` for å laste ned mongoDB sine drivers og bli kvitt feilmedlingene dine.
 
 ## Rediger database og collections
 Tester database og collection er kodet inn som dette (linje nr før koden):
